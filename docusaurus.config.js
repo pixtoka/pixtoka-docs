@@ -88,6 +88,10 @@ const config = {
             label: 'Commands',
           },
           {
+            href: 'https://github.com/pixtoka/pixtoka-docs',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
