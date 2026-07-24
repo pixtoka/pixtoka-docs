@@ -60,6 +60,7 @@ const config = {
     ],
   ],
 
+  themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -136,6 +137,14 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      algolia: {
+        appId: 'ADWZUVQX94',
+        apiKey: '27e4f5b6a4fc0466f2d43e333cbbdd1f',
+        indexName: 'Pixtoka Docs',
+        contextualSearch: true,
+        insights: true,
+        //askAi: 'YOUR_ALGOLIA_ASK_AI_ASSISTANT_ID',
       },
     }),
 };
