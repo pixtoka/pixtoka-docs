@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Pixtoka', // Usually your GitHub org/user name.
-  projectName: 'Pixtoka-Docs', // Usually your repo name.
+  organizationName: 'pixtoka', // Usually your GitHub org/user name.
+  projectName: 'docs.pixtoka.xyz', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'warn',
@@ -50,7 +50,7 @@ const config = {
           routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/Pixtoka/Pixtoka-Docs/tree/main/',
+            'https://github.com/pixtoka/docs.pixtoka.xyz/tree/main/',
         },
         blog: false,
         theme: {
@@ -87,7 +87,7 @@ const config = {
             label: 'Commands',
           },
           {
-            href: 'https://github.com/pixtoka/pixtoka-docs',
+            href: 'https://github.com/pixtoka/docs.pixtoka.xyz',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
