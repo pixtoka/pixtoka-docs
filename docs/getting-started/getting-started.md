@@ -6,9 +6,10 @@ sidebar_position: 1
 
 ## What is Pixtoka?
 
-Pixtoka is a free Discord bot made by Hexoraw. 
-Pixtoka allow users to customize their servers with next-generation moderation and a lot of commands.
-It also support personnal applications, a feature of discord that permit user to interact with the bot trought their private messages.
+Pixtoka is a free Discord bot made by Hexoraw.
+
+> Pixtoka allow users to customize their servers with next-generation moderation and a lot of commands.
+> It also support personnal applications, a feature of discord that permit user to interact with the bot trought their private messages.
 
 Visit our website at https://pixtoka.xyz/.
 
@@ -16,13 +17,12 @@ Visit our website at https://pixtoka.xyz/.
 
 Adding Pixtoka to your Discord server or your applications can be done using the following link :
 
-| ------------------------- | -------------------------- |
 | Add Pixtoka to Discord ➡️ | https://pixtoka.xyz/invite |
 | ------------------------- | -------------------------- |
 
-## Basic Permissions
+<!--## Basic Permissions
 
 In order to use moderation, configuration or any other commands that require the bot to change something in the server, Pixtoka must first have access to some permissions.
 Pixtoka use secure servers such as Amazon Web Services (AWS), Oracle Cloud Infrastructure (OCI) and Cloudflare to host everything.
 
-*** Seem like the writer fell asleep while writing this! To be continued... ***
+***Seem like the writer fell asleep while writing this! To be continued...*** -->
