@@ -11,6 +11,9 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--secondary', styles.heroBanner)}>
       <div className="container">
+        <div align="center">
+          <img src="https://raw.githubusercontent.com/Pixtoka/.github/main/profile/Pixtoka_Banner_Rounded.png" width="95%" alt="Pixtoka Banner"></img>
+        </div>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -22,9 +25,16 @@ function HomepageHeader() {
             Getting Started
           </Link>
           <Link
+            className={clsx('button button--primary button--lg', styles.buttons)}
+            to="/commands">
+            All Commands
+          </Link>
+        </div>
+        <div className={styles.buttonDiv}>
+          <Link
             className={clsx('button button--secondary button--lg', styles.buttons)}
             to="https://pixtoka.xyz/">
-            Visit Pixtoka Website
+            Pixtoka Website
           </Link>
         </div>
       </div>
@@ -36,8 +46,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Documentation for Pixtoka, a Discord bot.">
       <HomepageHeader />
       <main>
       </main>
