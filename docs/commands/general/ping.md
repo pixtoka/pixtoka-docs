@@ -6,9 +6,9 @@ This command is used to get the latency of the bot with the server.
 
 The ping command doesn't need any parsed value.
 
-| command       | value    |
-| ------------- | -------- |
-| `/ping`       | `<none>` |
+| command       |
+| ------------- |
+| `/ping`       |
 
 ### Command Result {#result}
 
