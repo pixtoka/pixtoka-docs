@@ -4,7 +4,7 @@ These servers are related to Pixtoka.
 
 ### Pixtoka Official Server
 
-- [Pixtoka by Hexoraw]() (not yet existing)
+- [Pixtoka by Hexoraw](https://discord.gg/Nw9jCkSPU5)
 
 ### Public servers of Hexoraw
 
